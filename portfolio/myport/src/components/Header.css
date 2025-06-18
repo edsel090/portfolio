@@ -1,0 +1,131 @@
+/* Header.css */
+
+.custom-navbar {
+    background-color: #343a40;
+    padding: 1rem 0;
+}
+
+.FontAwesomeIcon {
+    color: white;
+}
+
+span {
+    color: white;
+}
+
+.brand-name {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/*.brand-name:hover {
+    color: #17a2b8;
+}*/
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.nav-link {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 10px 15px;
+    min-width: 120px;
+    text-decoration: none;
+}
+
+/* Remove box styling from social media links */
+.social-nav .nav-link {
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 5px !important;
+    min-width: auto !important;
+}
+
+.nav-link span {
+    margin-right: 0.5rem;
+}
+
+.nav-link:hover,
+.ho:hover,
+.nav-link:hover span {
+    color: #17a2b8 !important;
+    background-color: rgba(23, 162, 184, 0.2);
+    border-color: #17a2b8;
+    transform: 
+        translateY(-2px);
+}
+
+/* Override hover effects for social media links */
+.social-nav .nav-link:hover {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    transform: none !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+/* Font Awesome Icons */
+.fa-lg {
+    margin-right: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-left: 0;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link {
+        margin-bottom: 10px;
+        width: 200px;
+    }
+
+    .social-nav .nav-link {
+        width: auto;
+        margin-bottom: 5px;
+    }
+
+    .navbar-toggler {
+        margin-bottom: 10px;
+    }
+
+    .ml-auto {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
