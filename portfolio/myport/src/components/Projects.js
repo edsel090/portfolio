@@ -36,32 +36,6 @@ const Projects = () => {
             </div> 
           </div> 
         </div> 
-        {/* Project 2 */} 
-        <div className="col-md-6"> 
-          <div className="card mb-4"> 
-            <div className="card-body"> 
-              <h5 className="card-title"> 
-               WildFire Tracker
-              </h5> 
-              <p className="card-text"> 
-                Created a real-time wildfire tracker using the google maps API and a wildfire data API from NASA. I also used react and bootstrap to create the UI. 
-              </p> 
-            </div> 
-          </div> 
-        </div> 
-        {/* Project 3 */} 
-        <div className="col-md-6"> 
-          <div className="card mb-4"> 
-            <div className="card-body"> 
-              <h5 className="card-title"> 
-                Audio Player
-              </h5> 
-              <p className="card-text"> 
-                Wrote a simple audio player using python that will read documents and play them as audio.
-              </p> 
-            </div> 
-          </div> 
-        </div> 
         {/* Project 4 */} 
         <div className="col-md-6"> 
           <div className="card mb-4"> 
