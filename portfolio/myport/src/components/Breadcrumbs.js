@@ -27,8 +27,7 @@ const Breadcrumbs = ({ paths }) => {
                 {path.title} 
               </Link> 
             ) : ( 
-              <span>{path.title}</span> 
-            )} 
+            <span style={{ color: '#007bff' }}>{path.title}</span>)} 
           </li> 
         ))} 
       </ul> 
@@ -38,3 +37,10 @@ const Breadcrumbs = ({ paths }) => {
 }; 
 
 export default Breadcrumbs;
+
+
+
+
+
+//write down the best 5-10 things you learn from class :D
+//learning advice from this
