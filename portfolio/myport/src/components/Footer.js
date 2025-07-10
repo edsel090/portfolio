@@ -15,18 +15,19 @@ return (
     </div> 
     <div className="col-md-6 text-md-right"> 
       <ul className="social-icons list-unstyled"> 
-      <li> 
+      <la> 
         <a 
 href="https://www.linkedin.com/in/edsel-hernandez/" target="_blank" rel="noopener noreferrer"> 
         <FontAwesomeIcon icon={faLinkedin} /> 
         </a> 
-      </li> 
-      <li> 
+        </la>
+        
+      <la> 
         <a href= 
 "https://github.com/edsel090" target="_blank" rel="noopener noreferrer"> 
         <FontAwesomeIcon icon={faGithub} /> 
         </a> 
-      </li> 
+      </la> 
       </ul> 
     </div> 
     </div> 
