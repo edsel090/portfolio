@@ -11,7 +11,9 @@ const About = () => {
             <div className="row">
                 <div className="col-md-8 offset-md-2">
                     <div className="profile-image-container">
-
+                        <img src="profile.jpg"
+                            alt="Profile"
+                            className="profile-image" />
                         <h2 className="section-title">
                             <h2 className="section-title">
                                 <FontAwesomeIcon icon={faUser} 
